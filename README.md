@@ -56,8 +56,7 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
    
       - Build presentation deck using Gamma AI
   
-## 👨‍💻 About the Author
-Hey, I’m Ashish Mishra, aspiring Data Analyst & part time mentor.
+
 
 
  
