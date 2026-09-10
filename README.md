@@ -1,64 +1,103 @@
-# 👨🏻‍💻Customer Behavior Data Analysis Project
-This project analyzes customer purchasing patterns, demographics, and engagement trends using **SQL**, **Python**, and **Power BI**.  
-It demonstrates an **end-to-end data analytics workflow** — from raw data extraction to interactive dashboard creation — to help businesses make **data-driven decisions**.. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
+# 🛍️ Customer Shopping Behavior Analysis
+
+An end-to-end data analytics project focused on analyzing customer shopping behavior, purchasing patterns, product performance, and subscription trends using **Python, MySQL, and Power BI**.
+
+## 🛠️ Tools & Technologies
+
+- Python
+- Pandas
+- MySQL
+- Power BI
+
+## 🔄 Project Workflow
+
+**Raw Data → Python Data Cleaning & Feature Engineering → MySQL Analysis → Power BI Dashboard**
+
+---
+
+## 🐍 1. Data Cleaning & Feature Engineering
+
+The dataset was cleaned and prepared using Python and Pandas.
+
+Key steps:
+
+- Explored the dataset and checked data quality
+- Handled missing values in `Review Rating`
+- Imputed missing ratings using category-wise median
+- Standardized column names
+- Created `age_group`
+- Created `purchase_frequency_days`
+- Removed redundant columns
+
+![Python Data Cleaning](images/python-cleaning.png)
+
+---
+
+## 🗄️ 2. Business Analysis using MySQL
+
+The cleaned data was loaded into MySQL for business-oriented SQL analysis.
+
+Key areas analyzed:
+
+- Revenue by gender
+- High-spending customers using discounts
+- Top-rated products
+- Shipping type analysis
+- Subscription behavior
+- Discount-dependent products
+- Customer segmentation
+- Top 3 products within each category
+- Repeat buyers and subscription behavior
+- Revenue by age group
+
+SQL techniques used include:
+
+- Aggregate functions
+- `GROUP BY`
+- Subqueries
+- CTEs
+- Window functions
+- `ROW_NUMBER()`
+
+![MySQL Analysis](images/mysql-analysis.png)
+
+---
+
+## 📊 3. Power BI Dashboard
+
+An interactive dashboard was created in Power BI to visualize customer and sales behavior.
+
+### Key KPIs
+
+- **Total Customers** — `COUNTROWS`
+- **Average Purchase Amount** — `AVERAGE`
+- **Average Review Rating** — `AVERAGE`
+
+The dashboard includes:
+
+- Customer distribution by subscription status
+- Sales by category
+- Revenue by category
+- Revenue by age group
+- Sales by age group
+- Interactive filters for customer and purchase attributes
+
+![Customer Behavior Dashboard](images/dashboard.png)
+
+---
+
+## 💡 Key Insights
+
+- Young Adults contributed the highest revenue among the analyzed age groups.
+- Customer behavior varies across subscription status, product categories, and age groups.
+- Purchase history can be used to identify New, Returning, and Loyal customers.
+- Product and discount analysis can help improve marketing and customer retention strategies.
+
+---
 
 
-## 📌 Project Overview
-The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
+---
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
+## 🎯 Skills Demonstrated
 
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
-
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
-
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
-
-![Project Workflow](https://github.com/user-attachments/assets/8bbd5dc9-eb6c-40c1-8f19-c08b4107f654)
-
-# 📸 Dashboard Preview
-
-<img width="911" height="469" alt="Coffe Dasboard" src="https://github.com/Mishra025/customer-trends-analysis-SQL-Python-PowerBI/blob/a26fb286d7bf47d66c87ad3fa4f47595d8a57689/Screenshot%202026-03-07%20012613.png" />
-
-## 🛠️ How to Use This Project
-
-1. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
-
-    This file contains:
-
-      - Data Import
-
-      - Data exploration
-
-      - Data cleaning
-
-      - Connection to SQL Database
-  
-2. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
-
-      - Create a database in SQL
-
-      - Run Python code to load data into SQL database
-  
-      - Open **customer_behavior_sql_queries.sql**
-  
-      - Answer Business Questions using SQL Queries 
-      
-3. **Connect the SQL Database to Power BI**
-
-      - Open **customer_behavior_dashboard.pbix**
-   
-      - Create interactive dashboard in Power BI
-  
-4. **Create Project Report and Presentation**
-
-      - Create project report
-   
-      - Build presentation deck using Gamma AI
-  
-
-
-
- 
-
-
+**Python • Pandas • SQL • MySQL • Power BI • Data Cleaning • Data Visualization • Business Analysis**
